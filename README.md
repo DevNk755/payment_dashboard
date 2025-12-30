@@ -20,7 +20,7 @@
 
 <b> User tabels </b>
 <img width="1450" height="229" alt="Screenshot 2025-12-30 180710" src="https://github.com/user-attachments/assets/1eb14921-df35-43d3-95be-0b3a7386a95f" />
-CREATE TABLE users (
+<pre>CREATE TABLE users (
     id INT(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) DEFAULT NULL,
     email VARCHAR(100) DEFAULT NULL,
@@ -28,3 +28,4 @@ CREATE TABLE users (
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+</pre>
