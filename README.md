@@ -5,7 +5,7 @@
 <b> Payments tabels</b>
 <img width="1497" height="307" alt="Screenshot 2025-12-30 180653" src="https://github.com/user-attachments/assets/1205a073-f455-417b-97a3-bad30fbf22f7" />
 
-<PR>CREATE TABLE payments (
+<pre>CREATE TABLE payments (
     id INT(11) NOT NULL AUTO_INCREMENT,
     user_id INT(11) DEFAULT NULL,
     amount DECIMAL(10,2) DEFAULT NULL,
@@ -14,7 +14,7 @@
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-</PR>
+</pre>
 
 <br><br>
 
